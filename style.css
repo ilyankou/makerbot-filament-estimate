@@ -1,0 +1,43 @@
+body {
+  overflow: hidden;
+  background-color: #26DEBC;
+  color: white;
+  font-family: Georgia;
+}
+
+div, div * {
+  font-size: 36pt;
+
+}
+
+div {
+  background-color: #CC4686;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  height: 50vh;
+  width: 50vw;
+  min-width: 400px;
+  margin-top: 50vh;
+  transform: translateY(-50%);
+}
+
+form {
+  margin: 40px;
+  text-align: center;
+}
+
+#input-number {
+  width: 200px;
+  text-align: center;
+  color: #555555;
+}
+
+button {
+  padding: 0px;
+  border: 0px;
+  width: 46pt;
+  height: 46pt;
+  background: yellow;
+  cursor: pointer;
+}
