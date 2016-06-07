@@ -18,6 +18,8 @@ div {
   height: 50vh;
   width: 50vw;
   min-width: 400px;
+  min-height: 200px;
+  max-height: 300px;
   margin-top: 50vh;
   transform: translateY(-50%);
 }
@@ -30,7 +32,7 @@ form {
 #input-number {
   width: 200px;
   text-align: center;
-  color: #555555;
+  color: #555;
 }
 
 button {
@@ -39,5 +41,6 @@ button {
   width: 46pt;
   height: 46pt;
   background: yellow;
+  color: white;
   cursor: pointer;
 }
